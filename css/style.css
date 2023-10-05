@@ -33,15 +33,30 @@ nav{
 }
 .button-one{
     width: 82px;
-    border: none;
+    border: 2px solid #000;
     border-radius: 9999px;
 }
 .button-two{
    width: 88px;
-   border: none;
+   border: 2px solid #000;
    border-radius: 9999px;
    margin-left: 12px;
 }
 .button-one:hover, .button-two:hover{
     background-color: #34E0A1;
+    border: none;
+}
+    
+
+
+.btn-cards-one{
+    width: 229px;
+    height: 49px;
+   border: 2px solid #000;
+   border-radius: 9999px;
+   margin-left: 12px;
+}
+.btn-cards-one:hover{
+    background-color: #34E0A1;
+    border: none;
 }
